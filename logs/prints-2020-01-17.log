@@ -1,0 +1,8 @@
+15:28:19.969 [main] INFO  resources.base - driver is intialized
+15:28:28.541 [main] INFO  resources.base - navigated to home page
+15:28:48.519 [main] INFO  resources.base - login is clicked
+15:28:53.974 [main] INFO  resources.base - login is clicked
+15:29:03.660 [main] INFO  resources.base - navigation bar is successfully displayed
+15:35:30.896 [main] INFO  resources.base - driver is intialized
+15:35:39.975 [main] INFO  resources.base - navigated to home page
+15:35:56.718 [main] INFO  resources.base - login is clicked

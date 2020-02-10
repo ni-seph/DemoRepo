@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 63.604 s <<< FAILURE! - in TestSuite
+Academy.ValidateTitle.validateApp  Time elapsed: 2.674 s  <<< FAILURE!
+java.lang.AssertionError: expected:<FEATURED COURSES123> but was:<FEATURED COURSES>
+	at Academy.ValidateTitle.validateApp(ValidateTitle.java:34)
+
+Academy.HomePage.basePageNavigation  Time elapsed: 17.871 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="http://qaclickacademy.usefedora.com/sign_in">...</a> is not clickable at point (1158, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'pjs-MacBook-Pro.attlocal.net', ip: '2600:1700:8e01:77e0:0:0:0:12%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hv/bhmv19nj29x...}, goog:chromeOptions: {debuggerAddress: localhost:53756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 653dc2d903252b57211fa4250b2f40f9
+	at Academy.HomePage.basePageNavigation(HomePage.java:34)
+
