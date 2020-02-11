@@ -40,4 +40,7 @@ public class ValidateTitle extends base {
 		driver.close();
 		driver=null;
 	}
+	public void logOut() {
+		System.out.println("login out");
+	}
 }
